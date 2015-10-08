@@ -1,0 +1,57 @@
+! Scrollbar or nobar lol
+URxvt.scrollBar: false
+
+! Adds padding around terminal text
+URxvt.internalBorder: 4
+
+! Font
+URxvt*.font: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
+URxvt*.boldfont: -xos4-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-1 
+
+! Colors Dark then Light or Left then Right if Termsexy
+URxvt*background:#2c2f3d
+URxvt*foreground:#e9ca92
+
+! Other colors
+! blacks
+URxvt*color0:1a1b1d
+URxvt*color8:1a1b1d
+
+! reds
+URxvt*color1:#c93939
+URxvt*color9:#c93939
+
+! greens
+URxvt*color2:#4da732
+URxvt*color10:#4da732
+
+! yellows
+URxvt*color3:#c76622
+URxvt*color11:#c76622
+
+! blues
+URxvt*color4:#2a63be
+URxvt*color12:#2a63be
+
+! magentas
+URxvt*color5:#7a3890
+URxvt*color13:#7a3890
+
+! cyans
+URxvt*color6:#3a9086
+URxvt*color14:#3a9086
+
+! whites
+URxvt*color7:#e9ca92
+URxvt*color15:#e9ca92
+
+
+! Transparency
+URxvt*.transparent: false
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*.shading: 25
+
+! Clickable Links
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/chromium
+URxvt.matcher.button: 1
