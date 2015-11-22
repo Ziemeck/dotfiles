@@ -4,7 +4,7 @@ echo ## DEPEND ##
 
 sudo apt-get install xfonts-terminus* &&
 sudo apt-get install i3 i3status i3-wm i3blocks i3lock &&
-
+sudo apt-get install curl vim &&
 
 
 
